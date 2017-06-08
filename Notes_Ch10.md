@@ -61,7 +61,7 @@ console.log(weekDay.name(6)); // -> Saturday
       - execute a sting of code in the current scope
       - may break some properties that the current scope has
   - Function() constructor
-      - `var plusOne = new Function("n", "return n+1;");
+      - `var plusOne = new Function("n", "return n+1;");`
       - two arguments:
           - a string containing a comma-separated list of argument names
           - a string containing the function's body
