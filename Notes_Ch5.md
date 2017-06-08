@@ -15,7 +15,7 @@ foreach(numbers, function(number) {
 console.log(sum) // -> print the result. Often, you don't pass predefined funtion to forEach.
 ```
 
-- Chapter 5 - Higher-Order Functions
+- Higher-Order Functions
   - Functions operate on other functions, either by taking them as arguments or by returning them, are called *higher-order functions*
   - allow us to abstract over actions
   - functions create new functions
@@ -44,7 +44,7 @@ noisy(Boolean)(0);
 // -> called with 0 - got false
 ```
 
-    - in this example, note only one parameter can be passed to `f(arg)`. This can be solved by pass an array of arguments using `apply` function.
+In this example, note only one parameter can be passed to `f(arg)`. This can be solved by pass an array of arguments using `apply` function.
 
 ```javascript
 function transparentWrapping(f) {
@@ -72,7 +72,7 @@ repeat(3, function(n) {
 // -> 0 is even
 // -> 2 is even
 ```
-    - in the last example above, note the inner function lives inside the environment of the outer one can use n. The bodies of such inner functions can access the variables around them, but not the other way around.
+In the last example above, note the inner function lives inside the environment of the outer one can use n. The bodies of such inner functions can access the variables around them, but not the other way around.
 
   - standard usage on array
     - forEach()

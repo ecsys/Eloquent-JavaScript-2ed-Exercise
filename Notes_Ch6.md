@@ -42,6 +42,7 @@ killerRabbit.speak("Doom.."); //-> The killer rabbit says Doom..
 ```
 - Polymorphism
   - having different objects expose the same interface and writing codes works on any object with such interface is called polymorphism
+
 - getter and setter
 
 ```javascript
@@ -60,8 +61,10 @@ console.log(pile.height);
 pile.height = 100;
 // -> Ignoring attempt to set height to 100
 ```
-    - if only getter method but no setter method is defind, then all statement assigning value to that property is ignored
-    - such a property can be added to an existing object by using the `Object.defineProperty` function
+If only getter method but no setter method is defind, then all statement assigning value to that property is ignored.
+
+
+Such a property can be added to an existing object by using the `Object.defineProperty` function.
 
 ```javascript
 Object.defineProperty(Textcell.prototype, "heightProp", {
